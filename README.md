@@ -24,14 +24,14 @@ magento_project_path="{your_magento_project_path}"
 
 ## Usage
 ### Ubuntu
-```php
+```bash
 cd {m2-bash-gitpull-all_project_path}
 ./m2-bash-gitpull-all.sh
 ```
 
 ### Windows &  MacOSX
 
-```php
+```bash
 cd {m2-bash-gitpull-all_project_path}
 sh m2-bash-gitpull-all.sh
 ```
