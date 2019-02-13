@@ -9,11 +9,11 @@
 
 <!-- /TOC -->
 
-##Requirement
+## Requirement
 - Only use for modules and themes installed by add to `app/code`, `app/design`
 - All modules and themes use `git` to manage source code
-## Install
 
+## Install
 - Step 1: Open `m2-bash-gitpull-all.sh` file by any Text Editor(Sublime, Notepad, ...) 
 - Step 2: Change `{your_magento_project_path}` in line 2 to your Magento project path
 
@@ -23,14 +23,13 @@ magento_project_path="{your_magento_project_path}"
 - Step 3: Save file and close
 
 ## Usage
-### Ubuntu
+#### Ubuntu
 ```bash
 cd {m2-bash-gitpull-all_project_path}
 ./m2-bash-gitpull-all.sh
 ```
 
-### Windows &  MacOSX
-
+#### Windows &  MacOSX
 ```bash
 cd {m2-bash-gitpull-all_project_path}
 sh m2-bash-gitpull-all.sh
