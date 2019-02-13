@@ -1,14 +1,17 @@
 # m2-bash-gitpull-all
-Magento 2 pull to lastest all git modules by one script.
-
+- Bash script use to pull lastest version of modules, themes in Magento 2
 ## Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 orderedList:0 -->
+- [Requirement](#requirement)
 - [Install](#install)
 - [Usage](#usage)
 
 <!-- /TOC -->
 
+##Requirement
+- Only use for modules and themes installed by add to `app/code`, `app/design`
+- All modules and themes use `git` to manage source code
 ## Install
 
 - Step 1: Open `m2-bash-gitpull-all.sh` file by any Text Editor(Sublime, Notepad, ...) 
